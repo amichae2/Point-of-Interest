@@ -1,0 +1,20 @@
+page {
+  background-color: white;
+  margin: 0;
+}
+
+#ultHead {
+  color: white;
+  font-family: verdana;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 200px
+}
+
+#ultImg{
+width: 100%;
+height: auto;
+background-repeat: no-repeat;
+}
