@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  background-color: white;
+}
+
+.right {
+
+  vertical-align: right;
+  position: absolute;
+  right: 3vw;
+  top: 35vh;
+  margin: 0;
+  transform: translate(0%, -30%)
+
+}
+
+.beginContainer {
+
+}
+
+.social {
+
+
+  top: -30px;
+  left: 7vw;
+  z-index: 1;
+  margin-top: 0;
+  position: relative;
+  align-self: center;
+
+
+}
+
+.linkedin {
+
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+
+}
+
+.github {
+
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+
+}
+
+.instagram {
+
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+
+}
+
+.flickr {
+
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+
+}
+
+.ultHead {
+  top: 35vh;
+  left: 3vw;
+  position:absolute;
+  color: #F6F7FB;
+  font-family: "Courier New";
+  text-align: center;
+  z-index: 1;
+  font-size: 6vw;
+  transform: translate(0, -50%)
+}
+
+.name {
+
+
+
+  color: #F6F7FB;
+  font-family: "Courier New";
+  z-index: 1;
+  font-size: 6vw;
+  text-align: center;
+
+}
+
+.ultImg {
+  width: 100%;
+  z-index: 0;
+}
