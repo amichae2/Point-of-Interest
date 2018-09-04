@@ -1,92 +1,95 @@
 body {
-  margin: 0;
+  background-image: url("C:/Users/micha/Documents/projects/pointofinterest/pointofinterests/images/front page images/working.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: white;
-}
-
-.right {
-
-  vertical-align: right;
-  position: absolute;
-  right: 3vw;
-  top: 35vh;
   margin: 0;
-  transform: translate(0%, -30%)
-
 }
 
-.beginContainer {
-
-}
-
-.social {
-
-
-  top: -30px;
+/*Title and Name*/
+.grid-header-container {
+  display: grid;
+  grid-template-columns: 1vw auto auto auto 1vw;
+  grid-template-rows: 23vh 33vh;
   z-index: 1;
-  margin-top: 0;
-  position: relative;
+}
+
+.headerBox {
   align-self: center;
+}
 
+.headerTitle {
+  grid-row: 2;
+  grid-column: 2 / 3;
+  color: #D7DEDC;
+  font-family: "PT Mono", monospace;
+  text-align: center;
+  font-size: 6vw;
+  z-index: 1;
+}
 
+.headerName {
+  grid-row: 2;
+  grid-column: 4 / 5;
+  color: #D7DEDC;
+  font-family: "PT Mono", monospace;
+  text-align: center;
+  font-size: 6vw;
+  z-index: 1;
+}
+
+.social-container {
+  grid-row: 3;
+  grid-column: 4 / 5;
 }
 
 .linkedin {
-
-  display: inline-block;
-  height: 3vw;
-  width: 3vw;
-
+  height: 2vw;
+  width: 2vw;
+  padding-right: .5vw;
 }
 
 .github {
-
-  display: inline-block;
-  height: 3vw;
-  width: 3vw;
-
+  height: 2vw;
+  width: 2vw;
+  padding-right: .5vw;
 }
 
 .instagram {
-
-  display: inline-block;
-  height: 3vw;
-  width: 3vw;
-
+  height: 2vw;
+  width: 2vw;
+  padding-right: .5vw;
 }
 
 .flickr {
-
-  display: inline-block;
-  height: 3vw;
-  width: 3vw;
-
+  height: 2vw;
+  width: 2vw;
 }
 
-.ultHead {
-  top: 35vh;
-  left: 3vw;
-  position:absolute;
-  color: #F6F7FB;
-  font-family: "Courier New";
+/*Header Links*/
+.header {
+  display: grid;
+  grid-template-areas: "resume projects blog contact";
+  grid-template-rows: 10vh;
+  z-index: 2;
+  color: #D7DEDC;
+  font-family: "PT Mono", monospace;
   text-align: center;
-  z-index: 1;
-  font-size: 6vw;
-  transform: translate(0, -50%)
+  font-size: 1.5vw;
 }
 
-.name {
-
-
-
-  color: #F6F7FB;
-  font-family: "Courier New";
-  z-index: 1;
-  font-size: 6vw;
-  text-align: center;
-
+.resume {
+  grid-area: resume;
 }
 
-.ultImg {
-  width: 100%;
-  z-index: 0;
+.projects {
+  grid-area: projects;
+}
+
+.blog {
+  grid-area: blog;
+}
+
+.contact {
+  grid-area: contact;
 }
